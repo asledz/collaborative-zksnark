@@ -22,6 +22,9 @@ derivative = { version = "2.0", features = ["use_core"]}
 log = {version = "0.4"}
 digest = { version = "0.9" }
 
+light-poseidon = { version = "0.2.0" }
+ark-bn254 = { version = "0.4.0" }
+
 rand = { version = "0.7", default-features = false }
 rand_chacha = { version = "0.3", default-features = false }
 rayon = { version = "1", optional = true }

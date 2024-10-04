@@ -38,6 +38,16 @@ clap = "2"
 merlin = "3"
 sha2 = "0.9"
 blake2 = "0.9"
+dusk-poseidon = "0.40.0"
+dusk-bls12_381 = "0.13.0"
+ark-bls12-381 = "0.4.0"
+ark-r1cs-std = "0.4.0"
+ark-crypto-primitives = { version = "0.4.0", features = ["crh", "r1cs"] }
+ark-sponge = "0.3.0"
+ark-ed-on-bls12-381 = "0.4.0"
+ark-mnt4-298 = "0.4.0"
+light-poseidon = "0.2.0"
+ark-bn254 = "0.4.0"
 
 [[bin]]
 name = "client"
